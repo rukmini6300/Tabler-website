@@ -1,0 +1,1817 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>test</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500&family=Poppins:wght@300;400;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/2935f1ae99.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+    <link href="https://cdn.datatables.net/1.13.1/css/jquery.dataTables.min.css" rel="stylesheet">
+  </head>
+  <body>
+    <div class="py-2 border-bottom">
+      <header class="container">
+        <div class="row head_main">
+          <div class="col-sm-4 align-middle">
+            <div class="logo_tab">
+              <span class="tab_logo">
+                <a href="#">
+                  <img src="images/logo.svg" alt="logo">
+                </a>
+              </span>
+            </div>
+          </div>
+          <div class="col-sm-8 text-end align-middle">
+            <div class="tab_left_menu">
+              <ul class="tab_list">
+                <li>
+                  <a href="#">
+                    <span class="tab_code">
+                      <i class="fa-brands fa-github"></i>
+                      <small>Source Code</small>
+                    </span>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <span class="tab_code">
+                      <i class="fa-regular fa-heart" style='color: red;'></i>
+                      <small>Sponsor</small>
+                    </span>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <i class="fa-regular fa-moon"></i>
+                  </a>
+                </li>
+                <li>
+                  <a href="#" class="ntf">
+                    <i class="fa-regular fa-bell"></i>
+                  </a>
+                  <div class="updates_hide">
+                    <p>Last updates</p>
+                    <ul class="example_list">
+                      <li>
+                        <div class="zoom-in-out-box bg-danger"></div>
+                        <div class="example_cont">
+                          <a href="#">Example 1</a>
+                          <p>Change deprecated html tags to text decoration classes...</p>
+                          <i class="fa fa-star-o text-primary"></i>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="zoom-in-out-box bg-primary"></div>
+                        <div class="example_cont">
+                          <a href="#">Example 2</a>
+                          <p>justify-content:between ⇒ justify-content:space-between...</p>
+                          <i class="fa fa-star-o text-warning"></i>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="zoom-in-out-box bg-secondary"></div>
+                        <div class="example_cont">
+                          <a href="#">Example 3</a>
+                          <p>Update change-version.js (#29736)..</p>
+                          <i class="fa fa-star-o text-danger"></i>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="zoom-in-out-box bg-success"></div>
+                        <div class="example_cont">
+                          <a href="#">Example 4</a>
+                          <p>Regenerate package-lock.json (#29730)</p>
+                          <i class="fa fa-star-o text-success"></i>
+                        </div>
+                    </ul>
+                  </div>
+                </li>
+                <li>
+                  <a href="https://www.linkedin.com/feed/">
+                    <div class="user_details">
+                      <img src="images/user1.jpg" alt="img">
+                      <div class="information">
+                        <span>Rukmini B</span>
+                        <p>UI Designer</p>
+                      </div>
+                    </div>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </header>
+    </div>
+    <!--header 2nd section -->
+    <div class="py-3 border-bottom">
+      <div class="container">
+        <div class="row head_main">
+          <div class="col-sm-9">
+            <div class="tab_right_head">
+              <ul class="nav_list_tab">
+                <li>
+                  <a href="#">
+                    <div class="list_home">
+                      <i class="fa fa-home"></i>
+                      <p>Home</p>
+                    </div>
+                  </a>
+                </li>
+                <li>
+                  <a href="#" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                    <div class="list_home">
+                      <i class='far fa-clone'></i>
+                      <p>Interface</p>
+                      <i class="dropdown-toggle"></i>
+                    </div>
+                  </a>
+                  <div class="visible_list dropdown-menu dis_visible" aria-labelledby="dropdownMenuButton1">
+                    <ul class="empty_page">
+                      <li>
+                        <a href="#" class="dropdown-item">Empty Page</a>
+                      </li>
+                      <li>
+                        <a href="#" class="dropdown-item">Accordion</a>
+                      </li>
+                      <li>
+                        <a href="#" class="dropdown-item">Blank page</a>
+                      </li>
+                      <li>
+                        <a href="#" class="dropdown-item">Blank page <span class="badge">New</span></a>
+                      </li>
+                      <li>
+                        <a href="#" class="dropdown-item">Blank page</a>
+                      </li>
+                      <li>
+                        <a href="#" class="dropdown-item">Blank page</a>
+                      </li>
+                      <li>
+                        <a href="#" class="dropdown-item">Blank page <span class="badge">New</span></a>
+                      </li>
+                      <li>
+                        <a href="#" class="dropdown-item">Blank page</a>
+                      </li>
+                      <li>
+                        <a href="#" class="dropdown-item">Blank page</a>
+                      </li>
+                      <li>
+                        <a href="#" class="dropdown-item">Blank page</a>
+                      </li>
+                      <li>
+                        <a href="#" class="dropdown-item">Blank page </a>
+                      </li>
+                      <li>
+                        <a href="#" class="dropdown-item">Blank page <span class="badge">New</span></a>
+                      </li>
+                      <li>
+                        <a href="#" class="dropdown-item">Blank page <span class="badge">New</span></a>
+                      </li>
+
+                    </ul>
+                    <ul class="empty_page">
+                      <li>
+                        <a href="#" class="dropdown-item">Empty Page</a>
+                      </li>
+                      <li>
+                        <a href="#" class="dropdown-item">Accordion</a>
+                      </li>
+                      <li>
+                        <a href="#" class="dropdown-item">Blank page</a>
+                      </li>
+                      <li>
+                        <a href="#" class="dropdown-item">Accordion</a>
+                      </li>
+                      <li>
+                        <a href="#" class="dropdown-item">Accordion</a>
+                      </li>
+                      <li>
+                        <a href="#" class="dropdown-item">Accordion</a>
+                      </li>
+                      <li>
+                        <a href="#" class="dropdown-item">Accordion</a>
+                      </li>
+                      <li>
+                        <a href="#" class="dropdown-item">Accordion</a>
+                      </li>
+                      <li>
+                        <a href="#" class="dropdown-item">Accordion <span class="badge">New</span></a>
+                      </li>
+                      <li>
+                        <a href="#" class="dropdown-item">Accordion <span class="badge">New</span></a>
+                      </li>
+                      <li>
+                        <a href="#" class="dropdown-item">Accordion<span class="badge">New</span></a>
+                      </li>
+                      <li>
+                        <a href="#" class="dropdown-item">Accordion<span class="badge">New</span></a>
+                      </li>
+                      <li>
+                        <a href="#" class="dropdown-toggle dropend" data-bs-toggle="dropdown">Authentication</a>
+                        <ul class="dropdown-menu ">
+                          <li>
+                            <a href="#" class="dropdown-item">Sign In</a>
+                          </li>
+                          <li>
+                            <a href="#" class="dropdown-item">Sign In link</a>
+                          </li>
+                          <li>
+                            <a href="#" class="dropdown-item">Sign Up</a>
+                          </li>
+                        </ul>
+                      </li>
+                    </ul>
+                  </div>
+                </li>
+                <li>
+                  <a href="#">
+                    <div class="list_home">
+                      <i class='far fa-check-square'></i>
+                      <p>Form elements</p>
+                    </div>
+                  </a>
+                </li>
+                <li>
+                  <a href="#" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                    <div class="list_home">
+                      <i class="fa fa-star-o"></i>
+                      <p>Extra</p>
+                      <i class="dropdown-toggle"></i>
+                    </div>
+                  </a>
+                  <div class="visible_list dropdown-menu dis_visible" aria-labelledby="dropdownMenuButton1">
+                    <ul class="empty_page">
+                      <li>
+                        <a href="#" class="dropdown-item">Empty Page</a>
+                      </li>
+                      <li>
+                        <a href="#" class="dropdown-item">Accordion</a>
+                      </li>
+                      <li>
+                        <a href="#" class="dropdown-item">Blank page <span class="badge">New</span></a>
+                      </li>
+                      <li>
+                        <a href="#" class="dropdown-item">Blank page</a>
+                      </li>
+                      <li>
+                        <a href="#" class="dropdown-item">Blank page</a>
+                      </li>
+                      <li>
+                        <a href="#" class="dropdown-item">Blank page <span class="badge">New</span></a>
+                      </li>
+                      <li>
+                        <a href="#" class="dropdown-item">Blank page <span class="badge">New</span></a>
+                      </li>
+                      <li>
+                        <a href="#" class="dropdown-item">Blank page</a>
+                      </li>
+                      <li>
+                        <a href="#" class="dropdown-item">Blank page</a>
+                      </li>
+                      <li>
+                        <a href="#" class="dropdown-item">Blank page<span class="badge">New</span></a>
+                      </li>
+                      
+                    </ul>
+                    <ul class="empty_page">
+                      <li>
+                        <a href="#" class="dropdown-item">Empty Page</a>
+                      </li>
+                      <li>
+                        <a href="#" class="dropdown-item">Accordion</a>
+                      </li>
+                      <li>
+                        <a href="#" class="dropdown-item">Blank page</a>
+                      </li>
+                      <li>
+                        <a href="#" class="dropdown-item">Accordion</a>
+                      </li>
+                      <li>
+                        <a href="#" class="dropdown-item">Accordion</a>
+                       </li>
+                       <li>
+                        <a href="#" class="dropdown-item">Accordion</a>
+                      </li>
+                      <li>
+                        <a href="#" class="dropdown-item">Accordion</a>
+                       </li>
+                      <li>
+                        <a href="#" class="dropdown-item">Accordion <span class="badge">New</span></a>
+                      </li>
+                      <li>
+                        <a href="#" class="dropdown-item">Accordion <span class="badge">New</span></a>
+                      </li>
+                      <li>
+                        <a href="#" class="dropdown-item">Accordion <span class="badge">New</span></a>
+                      </li>
+                      
+                    </ul>
+                  </div>
+                </li>
+                <li>
+                  <a href="#" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                    <div class="list_home">
+                      <i class='fas fa-qrcode'></i>
+                      <p>Layout</p>
+                      <i class="dropdown-toggle"></i>
+                    </div>
+                  </a>
+                  <div class="visible_list dropdown-menu dis_visible" aria-labelledby="dropdownMenuButton1">
+                    <ul class="empty_page">
+                      <li>
+                        <a href="#" class="dropdown-item">Empty Page</a>
+                      </li>
+                      <li>
+                        <a href="#" class="dropdown-item">Accordion</a>
+                      </li>
+                     
+                      <li>
+                        <a href="#" class="dropdown-item">Blank page<span class="badge">New</span></a>
+                      </li>
+                      <li>
+                        <a href="#" class="dropdown-item">Blank page</a>
+                      </li>
+                      <li>
+                        <a href="#" class="dropdown-item">Blank page</a>
+                      </li>
+                      
+                      <li>
+                        <a href="#" class="dropdown-item">Blank page</a>
+                      </li>
+                    </ul>
+                    <ul class="empty_page">
+                      <li>
+                        <a href="#" class="dropdown-item">Empty Page</a>
+                      </li>
+                      <li>
+                        <a href="#" class="dropdown-item">Accordion</a>
+                      </li>
+                      <li>
+                        <a href="#" class="dropdown-item">Blank page</a>
+                      </li>
+                      <li>
+                        <a href="#" class="dropdown-item">Accordion <span class="badge">New</span></a>
+                      </li>
+                      <li>
+                        <a href="#" class="dropdown-item">Accordion <span class="badge">New</span></a>
+                      </li>
+                      <li>
+                        <a href="#" class="dropdown-item">Accordion <span class="badge">New</span></a>
+                      </li>
+                      
+                      
+                    </ul>
+                  </div>
+                </li>
+                <li>
+                  <a href="#">
+                    <div class="list_home">
+                      <i class="fa fa-smile-o"></i>
+                      <p>3222 icons</p>
+                    </div>
+                  </a>
+                </li>
+                <li>
+                  <a href="#" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                    <div class="list_home">
+                      <i class="fa-solid fa-life-ring"></i>
+                      <p>Help</p>
+                      <i class="dropdown-toggle"></i>
+                    </div>
+                  </a>
+                  <div class="visible_list dropdown-menu visible_help" aria-labelledby="dropdownMenuButton1">
+                    <ul class="empty_page help_page">
+                      <li>
+                        <a href="#" class="dropdown-item">Empty Page</a>
+                      </li>
+                      <li>
+                        <a href="#" class="dropdown-item">Accordion</a>
+                      </li>
+                     
+                      <li>
+                        <a href="#" class="dropdown-item">Blank page</a>
+                      </li>
+                      <li>
+                        <a href="#" class="dropdown-item">
+                          <i class="fa-regular fa-heart" style="color: rgb(214,51,108);"></i>Blank page</a>
+                      </li>
+                      
+                     
+                    </ul>
+                  
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-sm-3 text-end">
+            <div class="search_box">
+              <div class="input_text">
+                <i class="fa fa-search"></i>
+                <input type="search" placeholder="Search...">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--banner section start here-->
+    <div class="tab_ban_head">
+      <div class="container">
+        <div class="row py-3 head_main">
+          <div class="col-sm-6 ">
+            <div class="tab_db_left">
+              <small>OverView</small>
+              <h1>Dashboard</h1>
+            </div>
+          </div>
+          <div class="col-sm-6 text-end">
+            <div class="view_tab">
+              <a href="#"> New View </a>
+              <a href="#" class="hocer">
+                <i class="fa-solid fa-plus"></i> Create new report </a>
+            </div>
+          </div>
+        </div>
+
+        <!--sales box section start here-->
+        <div class="tab_sales">
+          <div class="row">
+            <div class="col-sm-3">
+              <div class="border box_cont  p-4 ">
+                <div class="offers">
+                  <small>sales</small>
+                  <h1>75%</h1>
+                </div>
+                <a href="#" class="click_icon " id="one">Last 7 Days <i class="fa fa-chevron-down"></i>
+                </a>
+                <div class="last_days_hide">
+                  <ul class="days_list">
+                    <li>
+                      <a href="#">Last 7 days</a>
+                    </li>
+                    <li>
+                      <a href="#">Last 30 days</a>
+                    </li>
+                    <li>
+                      <a href="#">Last 3 months</a>
+                    </li>
+                  </ul>
+                </div>
+                <div class="porgress_cont">
+                  <p>Conversion rate</p>
+                  <div class="percent">
+                    <span>7%</span>
+                    <i class="fa fa-line-chart"></i>
+                  </div>
+                  <div class="progress mt-3">
+                    <div class="progress-bar" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-3">
+              <div class="border box_cont  p-4">
+                <div class="offers">
+                  <small>revenue</small>
+                  <h1>$4200</h1>
+                  <div class="revent">
+                    <p>8%</p>
+                    <i class="fa fa-line-chart"></i>
+                  </div>
+                </div>
+                <a href="#" class="click_icon" id="two">Last 7 Days <i class="fa fa-chevron-down"></i>
+                </a>
+                <div class="last_days_hide">
+                  <ul class="days_list">
+                    <li>
+                      <a href="#">Last 7 days</a>
+                    </li>
+                    <li>
+                      <a href="#">Last 30 days</a>
+                    </li>
+                    <li>
+                      <a href="#">Last 3 months</a>
+                    </li>
+                  </ul>
+                </div>
+                <div class="pt-3">
+                  <div id="chart-1"></div>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-3">
+              <div class="border box_cont  p-4">
+                <div class="offers">
+                  <small>new clients</small>
+                  <h1>6782</h1>
+                  <div class="revent orange_color">
+                    <p>0%</p>
+                    <i class="fa fa-minus"></i>
+                  </div>
+                </div>
+                <a href="#" class="click_icon" id="three">Last 7 Days <i class="fa fa-chevron-down"></i>
+                </a>
+                <div class="last_days_hide">
+                  <ul class="days_list">
+                    <li>
+                      <a href="#">Last 7 days</a>
+                    </li>
+                    <li>
+                      <a href="#">Last 30 days</a>
+                    </li>
+                    <li>
+                      <a href="#">Last 3 months</a>
+                    </li>
+                  </ul>
+                </div>
+                <div class="pt-3">
+                  <div id="chart-spark1"></div>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-3"> 
+              <div class="border box_cont  p-4">
+                <div class="offers">
+                  <small>revenue</small>
+                  <h1>$4200</h1>
+                  <div class="revent">
+                    <p>8%</p>
+                    <i class="fa fa-line-chart"></i>
+                  </div>
+                </div>
+                <a href="#" class="click_icon" id="four">Last 7 Days <i class="fa fa-chevron-down"></i>
+                </a>
+                <div class="last_days_hide">
+                  <ul class="days_list">
+                    <li>
+                      <a href="#">Last 7 days</a>
+                    </li>
+                    <li>
+                      <a href="#">Last 30 days</a>
+                    </li>
+                    <li>
+                      <a href="#">Last 3 months</a>
+                    </li>
+                  </ul>
+                </div>
+                <div class="pt-3">
+                  <div id="chart-5"></div>
+                </div>
+              </div>
+             </div>
+          </div>
+        </div>
+        <!--sales section start here-->
+        <div class="tab_sales_head py-2">
+          <div class="row">
+            <div class="col-sm-3">
+              <div class="sales_cont_tab">
+                <div class="dollar_icon">
+                  <i class="fa fa-dollar"></i>
+                </div>
+                <div class="doller_cont">
+                  <p>132 Sales</p>
+                  <p>12 Waiting payments</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-3">
+              <div class="sales_cont_tab">
+                <div class="dollar_icon cart_color">
+                  <i class="fa fa-shopping-cart"></i>
+                </div>
+                <div class="doller_cont">
+                  <p>78 Orders</p>
+                  <p>12 shipped</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-3">
+              <div class="sales_cont_tab">
+                <div class="dollar_icon twitter">
+                  <i class="fa fa-twitter"></i>
+                </div>
+                <div class="doller_cont">
+                  <p>632 Shares</p>
+                  <p>12 today</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-3">
+              <div class="sales_cont_tab">
+                <div class="dollar_icon fb">
+                  <i class="fa fa-facebook-f"></i>
+                </div>
+                <div class="doller_cont">
+                  <p>132 Likes</p>
+                  <p>21 today</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--Location and traffic section-->
+        <div class="location_head">
+          <div class="row">
+            <div class="col-sm-6">
+              <div class="traffic_head">
+                <div id="chart"></div>
+              </div>
+            </div>
+            <div class="col-sm-6">
+              <div class="map_locat">
+                <div id="vmap" ></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--progress bar in sections-->
+        <div class="storage_head py-2">
+          <div class="row">
+            <div class="col-sm-6">
+              <div class="storage_head_cont p-4">
+                <p>Using Storage <b>6854.45 MB </b>of 8 GBs</p>
+                <div class="pt-3">
+                  <div class="progress">
+                    <div class="progress-bar" role="progressbar" style="width: 15%" aria-valuenow="15" aria-valuemin="0" aria-label="shared" aria-valuemax="100"></div>
+                    <div class="progress-bar bg-success" role="progressbar" style="width: 30%" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100"></div>
+                    <div class="progress-bar bg-info" role="progressbar" style="width: 20%" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100"></div>
+                  </div>
+                </div>
+                <div class="row pt-3">
+                  <div class="col-sm-3">
+                    <div class="regular_cont">
+                      <div class="box_color"></div>
+                      <p>Regular</p>
+                      <small>923Mb</small>
+                    </div>
+                  </div>
+                  <div class="col-sm-3">
+                    <div class="regular_cont">
+                      <div class="box_color bg-primary"></div>
+                      <p>System</p>
+                      <small>213Mb</small>
+                    </div>
+                  </div>
+                  <div class="col-sm-3">
+                    <div class="regular_cont">
+                      <div class="box_color bg-success"></div>
+                      <p>Shared</p>
+                      <small>513Mb</small>
+                    </div>
+                  </div>
+                  <div class="col-sm-3">
+                    <div class="regular_cont">
+                      <div class="box_color bg-secondary"></div>
+                      <p>Free</p>
+                      <small>613Mb</small>
+                    </div>
+                  </div>
+
+                </div>
+              </div>
+              <!--data of jeffie-->
+              <div class="tab_jeffie_data mt-4">
+                <ul class="jeffie_cont">
+                  <li>
+                    <div class="jeffi_tab">
+                      <div class="img_jeffi">
+                        <span class="img_jenni">
+                          <img src="images/jennifer.jpg" alt="img">
+                        </span>
+                      </div>
+                      <div class="jeffi_text">
+                        <p>Lorem <b>ipsum dolor</b> sit amet consectetur adipisicing<b> sunt! Earum,</b>  elit. Earum,sunt!Earum, sunt!</p>
+                      </div>
+                      <div class="jeffi_circle">
+                        <p class="dot"></p>
+                      </div>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="jeffi_tab">
+                      <div class="img_jeffi">
+                        <span class="img_jenni">
+                          <img src="images/user5.jpg" alt="img">
+                        </span>
+                      </div>
+                      <div class="jeffi_text">
+                        <p>Lorem ipsum dolor sit amet <b>"consectetur adipisicing elit."</b> Earum, sunt! Earum, sunt!Earum, sunt!</p>
+                      </div>
+                      <div class="jeffi_circle">
+                        <p class="dot"></p>
+                      </div>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="jeffi_tab">
+                      <div class="img_jeffi">
+                        <span class="img_jenni">
+                          <img src="images/jennifer.jpg" alt="img">
+                        </span>
+                      </div>
+                      <div class="jeffi_text">
+                        <p><b>Lorem ipsum </b>dolor sit amet consectetur adipisicing elit. Earum, sunt! Earum, <b>sunt!Earum, sunt!</b></p>
+                      </div>
+                      <div class="jeffi_circle">
+                        <p class="dot"></p>
+                      </div>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="jeffi_tab">
+                      <div class="img_jeffi">
+                        <span class="img_jenni">
+                          <img src="images/user4.jpg" alt="img">
+                        </span>
+                      </div>
+                      <div class="jeffi_text">
+                        <p>Lorem ipsum dolor sit <b>amet consectetur adipisicing </b>elit. Earum, sunt! Earum, sunt!Earum, sunt!</p>
+                      </div>
+                      <div class="jeffi_circle">
+                        <p class="dot"></p>
+                      </div>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="jeffi_tab">
+                      <div class="img_jeffi">
+                        <span class="img_jenni">
+                          <img src="images/user5.jpg" alt="img">
+                        </span>
+                      </div>
+                      <div class="jeffi_text">
+                        <p><b>Lorem ipsum dolor sit amet</b> consectetur adipisicing elit. Earum, sunt! Earum, sunt!Earum, sunt!</p>
+                      </div>
+                      <div class="jeffi_circle">
+                        <p class="dot"></p>
+                      </div>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="jeffi_tab">
+                      <div class="img_jeffi">
+                        <span class="img_jenni">
+                          <img src="images/jennifer.jpg" alt="img">
+                        </span>
+                      </div>
+                      <div class="jeffi_text">
+                        <p>Lorem ipsum dolor sit amet consectetur <b>adipisicing elit. Earum, </b>sunt! Earum, sunt!Earum, sunt!</p>
+                      </div>
+                      <div class="jeffi_circle">
+                        <p class="dot"></p>
+                      </div>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="jeffi_tab">
+                      <div class="img_jeffi">
+                        <span class="img_jenni">
+                          <img src="images/user4.jpg" alt="img">
+                        </span>
+                      </div>
+                      <div class="jeffi_text">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.<b> Earum, sunt! Earum, sunt!</b>Earum, sunt!</p>
+                      </div>
+                      <div class="jeffi_circle">
+                        <p class="dot"></p>
+                      </div>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="jeffi_tab">
+                      <div class="img_jeffi">
+                        <span class="img_jenni">
+                          <img src="images/jennifer.jpg" alt="img">
+                        </span>
+                      </div>
+                      <div class="jeffi_text">
+                        <p>Lorem ipsum dolor sit<b> amet consectetur adipisicing</b> elit. Earum, sunt! Earum, sunt!Earum, sunt!</p>
+                      </div>
+                      <div class="jeffi_circle">
+                        <p class="dot"></p>
+                      </div>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="jeffi_tab">
+                      <div class="img_jeffi">
+                        <span class="img_jenni">
+                          <img src="images/user5.jpg" alt="img">
+                        </span>
+                      </div>
+                      <div class="jeffi_text">
+                        <p>Lorem ipsum dolor sit amet consectetur <b>adipisicing elit. Earum, sunt!</b> Earum, sunt!Earum, sunt!</p>
+                      </div>
+                      <div class="jeffi_circle">
+                        <p class="dot"></p>
+                      </div>
+                    </div>
+                  </li>
+
+                </ul>
+              </div>
+            </div>
+            <div class="col-sm-6">
+              <div class="graph_cont">
+                <p>Development activity</p>
+                <div class="today_act">
+                    <div class="circle_progress">
+                      <p>Today's Earning:$4,620.5</p>
+                     <p><i class="fa fa-line-chart"></i>+5 more than yesterday</p>
+                    </div>
+                </div>
+
+                <div class="pt-3">
+                  <div id="chart-spark3"></div>
+                </div>
+                <div class="table_cont pt-4">
+                  <table style="width: 100%;">
+                    <thead class="commit">
+                      <tr>
+                        <th>USER</th>
+                      <th>COMMIT</th>
+                      <th>DATE</th>
+                      </tr>
+                    </thead>
+                    <tbody class="user_cont">
+                      <tr>
+                        <td>
+                          <div class="img_table">
+                            <span>
+                              <img src="images/user3.webp" alt="img">
+                            </span>
+                          </div>
+                        </td>
+                        <td>
+                          <div class="text_table">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit..</p>
+                          </div>
+                        </td>
+                        <td>
+                          <div>
+                            <p>26 NOV 2019</p>
+                          </div>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>
+                          <div class="img_table">
+                            <span>
+                              <img src="images/user4.jpg" alt="img">
+                            </span>
+                          </div>
+                        </td>
+                        <td>
+                          <div class="text_table">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit..</p>
+                          </div>
+                        </td>
+                        <td>
+                          <div>
+                            <p>26 NOV 2019</p>
+                          </div>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>
+                          <div class="img_table">
+                            <span>
+                              <img src="images/user3.webp" alt="img">
+                            </span>
+                          </div>
+                        </td>
+                        <td>
+                          <div class="text_table">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit..</p>
+                          </div>
+                        </td>
+                        <td>
+                          <div>
+                            <p>26 NOV 2019</p>
+                          </div>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>
+                          <div class="img_table">
+                            <span>
+                              <img src="images/user5.jpg" alt="img">
+                            </span>
+                          </div>
+                        </td>
+                        <td>
+                          <div class="text_table">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit..</p>
+                          </div>
+                        </td>
+                        <td>
+                          <div>
+                            <p>26 NOV 2019</p>
+                          </div>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>
+                          <div class="img_table">
+                            <span>
+                              <img src="images/user4.jpg" alt="img">
+                            </span>
+                          </div>
+                        </td>
+                        <td>
+                          <div class="text_table">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit..</p>
+                          </div>
+                        </td>
+                        <td>
+                          <div>
+                            <p>26 NOV 2019</p>
+                          </div>
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--emoji icon section-->
+        <div class="emoji_head my-2 p-5">
+          <h1>Tabler Icons</h1>
+          <div class="tabler_moji_cont">
+            All icons come from the Tabler Icons set and are MIT-licensed. Visit <a href="#">tabler-icons.io</a>
+            , download any of the 3222 icons in SVG, <span class="them_cont">PNG or React and use them in your favourite design tools</span>
+          </div>
+          <a href="#">
+            <button class="btn">Download Icons</button>
+          </a>
+          <div class="emoji_circle">
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"></path><path d="M5 11a7 7 0 0 1 14 0v7a1.78 1.78 0 0 1 -3.1 1.4a1.65 1.65 0 0 0 -2.6 0a1.65 1.65 0 0 1 -2.6 0a1.65 1.65 0 0 0 -2.6 0a1.78 1.78 0 0 1 -3.1 -1.4v-7"></path><path d="M10 10l.01 0"></path><path d="M14 10l.01 0"></path><path d="M10 14a3.5 3.5 0 0 0 4 0"></path></svg>
+          </div>
+        </div>
+        <!--most visited pages-->
+        <div class="visited_haed pb-3 pt-1">
+          <div class="row">
+            <div class="col-sm-8">
+              <div class="visited_cont">
+                <p>Most Visited Pages</p>
+                <table style="width: 100%;">
+                  <thead class="commit">
+                    <tr class="head_name">
+                      <th>PGE NAME</th>
+                      <th>VISITORS</th>
+                      <th>UNIQUE</th>
+                      <th>BOUNCE RATE</th>
+                      <th></th>
+                    </tr>
+                  </thead>
+                  <tbody class="visible_cont_tabler">
+                    <tr>
+                      <td><div>/ <a href="#" class="attach"><i class="fa fa-paperclip"></i></a></div></td>
+                      <td>4,546</td>
+                      <td>5,678</td>
+                      <td>82.56%</td>
+                      <td><img src="images/Capture1.PNG" alt="img"></td>
+                    </tr>
+                    <tr>
+                      <td><div>/form-elements.html<a href="#"  class="attach"><i class="fa fa-paperclip"></i>
+                      </a></div></td>
+                      <td>4,546</td>
+                      <td>5,678</td>
+                      <td>82.56%</td>
+                      <td><img src="images/Capture2.PNG" alt="img"></td>
+                    </tr>
+                    <tr>
+                      <td><div>/index.html<a href="#"  class="attach"><i class="fa fa-paperclip"></i></a></div></td>
+                      <td>4,546</td>
+                      <td>5,678</td>
+                      <td>82.56%</td>
+                      <td><img src="images/Capture3.PNG" alt="img"></td>
+                    </tr>
+                    <tr>
+                      <td><div>/icon.html<a href="#"  class="attach"><i class="fa fa-paperclip"></i></a></div></td>
+                      <td>4,546</td>
+                      <td>5,678</td>
+                      <td>82.56%</td>
+                      <td><img src="images/Capture1.PNG" alt="img"></td>
+                    </tr>
+                    <tr>
+                      <td><div>/docs/<a href="#"  class="attach"><i class="fa fa-paperclip"></i></a></div></td>
+                      <td>4,546</td>
+                      <td>5,678</td>
+                      <td>82.56%</td>
+                      <td><img src="images/Capture2.PNG" alt="img"></td>
+                    </tr>
+                    <tr>
+                      <td><div>/Accordion.html<a href="#"  class="attach"><i class="fa fa-paperclip"></i></a></div></td>
+                      <td>4,546</td>
+                      <td>5,678</td>
+                      <td>82.56%</td>
+                      <td><img src="images/Capture3.PNG" alt="img"></td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+            <div class="col-sm-4">
+              <div class="visited_right">
+                <a href="#">
+                  <span>
+                    <img src="images/toy.svg" alt="img">
+                  </span>
+                </a>
+              </div>
+            </div>
+          </div>
+
+        </div>
+        <!--social media traffic-->
+        <div class="social_media pb-3">
+          <div class="row">
+            <div class="col-sm-4">
+              <div class="media_head">
+                <p>Social Media Traffic</p>
+                <table style="width: 100%;">
+                  <thead class="social_head commit">
+                    <tr>
+                      <th>NETWORK</th>
+                      <th>VISIORS</th>
+                      <th>progress</th>
+                    </tr>
+                  </thead>
+                  <tbody class="social_site">
+                    <tr>
+                      <td>Instagram</td>
+                      <td>3,456</td>
+                      <td>
+                        <div class="progress" style="height: 8px;">
+                          <div class="progress-bar" role="progressbar" style="width: 75%;" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>Twitter</td>
+                      <td>1,456</td>
+                      <td>
+                        <div class="progress" style="height: 8px;">
+                          <div class="progress-bar" role="progressbar" style="width: 65%;" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>Facebook</td>
+                      <td>1,256</td>
+                      <td>
+                        <div class="progress" style="height: 8px;">
+                          <div class="progress-bar" role="progressbar" style="width: 55%;" aria-valuenow="55" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>Tik Tok</td>
+                      <td>986</td>
+                      <td>
+                        <div class="progress" style="height: 8px;">
+                          <div class="progress-bar" role="progressbar" style="width: 45%;" aria-valuenow="45" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>Pinterest</td>
+                      <td>854</td>
+                      <td>
+                        <div class="progress" style="height: 8px;">
+                          <div class="progress-bar" role="progressbar" style="width: 35%;" aria-valuenow="35" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>VK</td>
+                      <td>650</td>
+                      <td>
+                        <div class="progress" style="height: 8px;">
+                          <div class="progress-bar" role="progressbar" style="width: 25%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>Pinterest</td>
+                      <td>420</td>
+                      <td>
+                        <div class="progress" style="height: 8px;">
+                          <div class="progress-bar" role="progressbar" style="width: 15%;" aria-valuenow="15" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+            <div class="col-sm-8">
+              <div class="task_head">
+                <p>Tasks</p>
+                <table style="width: 100%;"> 
+                  <tbody class="check_cont">
+                    <tr>
+                      <td>
+                        <div class="check">
+                          <input type="checkbox" id="modal1" name="modal" value="Bike">
+                          <a href="#"><label for="modal1"> Extend the data model</label></a>
+                        </div>
+                      </td>
+                      <td><i class="fa fa-calendar"></i>August 5, 2021</td>
+                      <td><i class="fa fa-check"></i>2/7</td>
+                      <td><i class='far fa-comment-alt'></i>3</td>
+                      <td>
+                        <div class="dates_img">
+                          <span>
+                            <img src="images/user4.jpg" alt="img">
+                          </span>
+                        </div>
+                      </td> 
+                    </tr>
+                    <tr>
+                      <td>
+                        <div class="check">
+                          <input type="checkbox" id="modal1" name="modal" value="Bike">
+                          <a href="#"><label for="modal1"> Verify the event flow.</label></a>
+                        </div>
+                      </td>
+                      <td><i class="fa fa-calendar"></i>August 5, 2021</td>
+                      <td><i class="fa fa-check"></i>2/7</td>
+                      <td><i class='far fa-comment-alt'></i>3</td>
+                      <td>
+                        <div class="dates_img">
+                          <span>
+                            <img src="images/user4.jpg" alt="img">
+                          </span>
+                        </div>
+                      </td> 
+                    </tr>
+                    <tr>
+                      <td>
+                        <div class="check">
+                          <input type="checkbox" id="modal1" name="modal" value="Bike">
+                          <a href="#"><label for="modal1"> Database backup and maintenance</label></a>
+                        </div>
+                      </td>
+                      <td><i class="fa fa-calendar"></i>August 5, 2021</td>
+                      <td><i class="fa fa-check"></i>2/7</td>
+                      <td><i class='far fa-comment-alt'></i>3</td>
+                      <td>
+                        <div class="dates_img">
+                          <span>
+                            <img src="images/user4.jpg" alt="img">
+                          </span>
+                        </div>
+                      </td> 
+                    </tr>
+                    <tr>
+                      <td>
+                        <div class="check">
+                          <input type="checkbox" id="modal1" name="modal" value="Bike">
+                          <a href="#"><label for="modal1"> Extend the data model</label></a>
+                        </div>
+                      </td>
+                      <td><i class="fa fa-calendar"></i>August 5, 2021</td>
+                      <td><i class="fa fa-check"></i>2/7</td>
+                      <td><i class='far fa-comment-alt'></i>3</td>
+                      <td>
+                        <div class="dates_img">
+                          <span>
+                            <img src="images/user4.jpg" alt="img">
+                          </span>
+                        </div>
+                      </td> 
+                    </tr>
+                    <tr>
+                      <td>
+                        <div class="check">
+                          <input type="checkbox" id="modal1" name="modal" value="Bike">
+                          <a href="#"><label for="modal1"> Extend the data model</label></a>
+                        </div>
+                      </td>
+                      <td><i class="fa fa-calendar"></i>August 5, 2021</td>
+                      <td><i class="fa fa-check"></i>2/7</td>
+                      <td><i class='far fa-comment-alt'></i>3</td>
+                      <td>
+                        <div class="dates_img">
+                          <span>
+                            <img src="images/user4.jpg" alt="img">
+                          </span>
+                        </div>
+                      </td> 
+                    </tr>
+                    <tr>
+                      <td>
+                        <div class="check">
+                          <input type="checkbox" id="modal1" name="modal" value="Bike">
+                          <a href="#"><label for="modal1"> Extend the data model</label></a>
+                        </div>
+                      </td>
+                      <td><i class="fa fa-calendar"></i>August 5, 2021</td>
+                      <td><i class="fa fa-check"></i>2/7</td>
+                      <td><i class='far fa-comment-alt'></i>3</td>
+                      <td>
+                        <div class="dates_img">
+                          <span>
+                            <img src="images/user4.jpg" alt="img">
+                          </span>
+                        </div>
+                      </td> 
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--data tables-->
+        <div class="tab_data_table mb-3">
+          <p>Invoice</p>
+          <table style="width: 100%;" id="example" class="display">
+            <thead class="table_cont_data">
+              <tr>
+                <th>No</th>
+                <th>No</th>
+                <th>Invoice Subject</th>
+                <th>client</th>
+                <th>vat No</th>
+                <th>crated</th>
+                <th>status</th>
+                <th>price</th>
+                <th>actions</th>
+              </tr>
+            </thead>
+            <tbody class="works">
+              <tr>
+                <td><div><input type="checkbox"></div></td>
+                <td>00041</td>
+                <td>Design works</td>
+                <td>
+                  <div class="flag_head">
+                    <span>
+                      <img src="images/india.jpg" alt="img">
+                    </span>
+                    <p>India</p>
+                  </div>
+                </td>
+                <td>4567890</td>
+                <td>15 Jan 2018</td>
+                <td><p class="paid_cont">paid</p></td>
+                <td>$567</td>
+                <td>actions</td>
+              </tr>
+
+              <tr>
+                <td><div><input type="checkbox"></div></td>
+                <td>00042</td>
+                <td>Ui wire frames</td>
+                <td>
+                  <div class="flag_head">
+                    <span>
+                      <img src="images/usa.webp" alt="img">
+                    </span>
+                    <p>USA</p>
+                  </div>
+                </td>
+                <td>4567890</td>
+                <td>15 Dec 2017</td>
+                <td><p class="paid_cont blue_colo">paid</p></td>
+                <td>$567</td>
+                <td>actions</td>
+              </tr>
+
+              <tr>
+                <td><div><input type="checkbox"></div></td>
+                <td>00043</td>
+                <td>Design works</td>
+                <td>
+                  <div class="flag_head">
+                    <span>
+                      <img src="images/wolf.jfif" alt="img">
+                    </span>
+                    <p>Blue Wolf</p>
+                  </div>
+                </td>
+                <td>4567892</td>
+                <td>15 Feb 2019</td>
+                <td><p class="paid_cont green-colo">paid</p></td>
+                <td>$568</td>
+                <td>actions</td>
+              </tr>
+
+              <tr>
+                <td><div><input type="checkbox"></div></td>
+                <td>00044</td>
+                <td>New dashboard</td>
+                <td>
+                  <div class="flag_head">
+                    <span>
+                      <img src="images/sales.png" alt="img">
+                    </span>
+                    <p>Sales force</p>
+                  </div>
+                </td>
+                <td>4567890</td>
+                <td>15 Dec 2017</td>
+                <td><p class="paid_cont">paid</p></td>
+                <td>$567</td>
+                <td>actions</td>
+              </tr>
+              <tr>
+                <td><div><input type="checkbox"></div></td>
+                <td>00045</td>
+                <td>Loading page</td>
+                <td>
+                  <div class="flag_head">
+                    <span>
+                      <img src="images/printic.svg" alt="img">
+                    </span>
+                    <p>Printic</p>
+                  </div>
+                </td>
+                <td>4567890</td>
+                <td>15 Dec 2020</td>
+                <td><p class="paid_cont">paid</p></td>
+                <td>$567</td>
+                <td>actions</td>
+              </tr>
+              <tr>
+                <td><div><input type="checkbox"></div></td>
+                <td>00046</td>
+                <td>marketing Templates</td>
+                <td>
+                  <div class="flag_head">
+                    <span>
+                      <img src="images/ad.svg" alt="img">
+                    </span>
+                    <p>Tabdaq</p>
+                  </div>
+                </td>
+                <td>4567890</td>
+                <td>15 Dec 2016</td>
+                <td><p class="paid_cont">paid</p></td>
+                <td>$567</td>
+                <td>actions</td>
+              </tr>
+              <tr>
+                <td><div><input type="checkbox"></div></td>
+                <td>00047</td>
+                <td>Sales presentation</td>
+                <td>
+                  <div class="flag_head">
+                    <span>
+                      <img src="images/india.jpg" alt="img">
+                    </span>
+                    <p>India</p>
+                  </div>
+                </td>
+                <td>4567890</td>
+                <td>15 Dec 2017</td>
+                <td><p class="paid_cont blue_colo">paid</p></td>
+                <td>$567</td>
+                <td>actions</td>
+              </tr>
+              <tr>
+                <td><div><input type="checkbox"></div></td>
+                <td>00048</td>
+                <td>Logo/print</td>
+                <td>
+                  <div class="flag_head">
+                    <span>
+                      <img src="images/us.svg" alt="img">
+                    </span>
+                    <p>UAE</p>
+                  </div>
+                </td>
+                <td>4567890</td>
+                <td>15 Dec 2022</td>
+                <td><p class="paid_cont green-colo">paid</p></td>
+                <td>$567</td>
+                <td>actions</td>
+              </tr>
+              <tr>
+                <td><div><input type="checkbox"></div></td>
+                <td>00041</td>
+                <td>Design works</td>
+                <td>
+                  <div class="flag_head">
+                    <span>
+                      <img src="images/india.jpg" alt="img">
+                    </span>
+                    <p>Toobic</p>
+                  </div>
+                </td>
+                <td>4567890</td>
+                <td>15 Dec 2017</td>
+                <td><p class="paid_cont">paid</p></td>
+                <td>$567</td>
+                <td>actions</td>
+              </tr>
+              <tr>
+                <td><div><input type="checkbox"></div></td>
+                <td>00049</td>
+                <td>Icon</td>
+                <td>
+                  <div class="flag_head">
+                    <span>
+                      <img src="images/br.svg" alt="img">
+                    </span>
+                    <p>Apple</p>
+                  </div>
+                </td>
+                <td>4567890</td>
+                <td>15 Dec 2017</td>
+                <td><p class="paid_cont">paid</p></td>
+                <td>$567</td>
+                <td>actions</td>
+              </tr>
+              <tr>
+                <td><div><input type="checkbox"></div></td>
+                <td>00050</td>
+                <td>Design works</td>
+                <td>
+                  <div class="flag_head">
+                    <span>
+                      <img src="images/india.jpg" alt="img">
+                    </span>
+                    <p>India</p>
+                  </div>
+                </td>
+                <td>4567890</td>
+                <td>15 Dec 2017</td>
+                <td><p class="paid_cont">paid</p></td>
+                <td>$567</td>
+                <td>actions</td>
+              </tr>
+              <tr>
+                <td><div><input type="checkbox"></div></td>
+                <td>00051</td>
+                <td>rukku works</td>
+                <td>
+                  <div class="flag_head">
+                    <span>
+                      <img src="images/india.jpg" alt="img">
+                    </span>
+                    <p>India</p>
+                  </div>
+                </td>
+                <td>4567890</td>
+                <td>15 Dec 2017</td>
+                <td><p class="paid_cont">paid</p></td>
+                <td>$567</td>
+                <td>actions</td>
+              </tr>
+              <tr>
+                <td><div><input type="checkbox"></div></td>
+                <td>00051</td>
+                <td>rukku works</td>
+                <td>
+                  <div class="flag_head">
+                    <span>
+                      <img src="images/india.jpg" alt="img">
+                    </span>
+                    <p>India</p>
+                  </div>
+                </td>
+                <td>4567890</td>
+                <td>15 Dec 2017</td>
+                <td><p class="paid_cont">paid</p></td>
+                <td>$567</td>
+                <td>actions</td>
+              </tr>
+              <tr>
+                <td><div><input type="checkbox"></div></td>
+                <td>00042</td>
+                <td>Ui wire frames</td>
+                <td>
+                  <div class="flag_head">
+                    <span>
+                      <img src="images/usa.webp" alt="img">
+                    </span>
+                    <p>USA</p>
+                  </div>
+                </td>
+                <td>4567890</td>
+                <td>15 Dec 2017</td>
+                <td><p class="paid_cont blue_colo">paid</p></td>
+                <td>$567</td>
+                <td>actions</td>
+              </tr>
+
+              <tr>
+                <td><div><input type="checkbox"></div></td>
+                <td>00043</td>
+                <td>Design works</td>
+                <td>
+                  <div class="flag_head">
+                    <span>
+                      <img src="images/wolf.jfif" alt="img">
+                    </span>
+                    <p>Blue Wolf</p>
+                  </div>
+                </td>
+                <td>4567892</td>
+                <td>15 Feb 2019</td>
+                <td><p class="paid_cont green-colo">paid</p></td>
+                <td>$568</td>
+                <td>actions</td>
+              </tr>
+              <tr>
+                <td><div><input type="checkbox"></div></td>
+                <td>00042</td>
+                <td>Ui wire frames</td>
+                <td>
+                  <div class="flag_head">
+                    <span>
+                      <img src="images/usa.webp" alt="img">
+                    </span>
+                    <p>USA</p>
+                  </div>
+                </td>
+                <td>4567890</td>
+                <td>15 Dec 2017</td>
+                <td><p class="paid_cont blue_colo">paid</p></td>
+                <td>$567</td>
+                <td>actions</td>
+              </tr>
+
+              <tr>
+                <td><div><input type="checkbox"></div></td>
+                <td>00043</td>
+                <td>Design works</td>
+                <td>
+                  <div class="flag_head">
+                    <span>
+                      <img src="images/wolf.jfif" alt="img">
+                    </span>
+                    <p>Blue Wolf</p>
+                  </div>
+                </td>
+                <td>4567892</td>
+                <td>15 Feb 2019</td>
+                <td><p class="paid_cont green-colo">paid</p></td>
+                <td>$568</td>
+                <td>actions</td>
+              </tr>
+              <tr>
+                <td><div><input type="checkbox"></div></td>
+                <td>00042</td>
+                <td>Ui wire frames</td>
+                <td>
+                  <div class="flag_head">
+                    <span>
+                      <img src="images/usa.webp" alt="img">
+                    </span>
+                    <p>USA</p>
+                  </div>
+                </td>
+                <td>4567890</td>
+                <td>15 Dec 2017</td>
+                <td><p class="paid_cont blue_colo">paid</p></td>
+                <td>$567</td>
+                <td>actions</td>
+              </tr>
+
+              <tr>
+                <td><div><input type="checkbox"></div></td>
+                <td>00043</td>
+                <td>Design works</td>
+                <td>
+                  <div class="flag_head">
+                    <span>
+                      <img src="images/wolf.jfif" alt="img">
+                    </span>
+                    <p>Blue Wolf</p>
+                  </div>
+                </td>
+                <td>4567892</td>
+                <td>15 Feb 2019</td>
+                <td><p class="paid_cont green-colo">paid</p></td>
+                <td>$568</td>
+                <td>actions</td>
+              </tr>
+              <tr>
+                <td><div><input type="checkbox"></div></td>
+                <td>00042</td>
+                <td>Ui wire frames</td>
+                <td>
+                  <div class="flag_head">
+                    <span>
+                      <img src="images/usa.webp" alt="img">
+                    </span>
+                    <p>USA</p>
+                  </div>
+                </td>
+                <td>4567890</td>
+                <td>15 Dec 2017</td>
+                <td><p class="paid_cont blue_colo">paid</p></td>
+                <td>$567</td>
+                <td>actions</td>
+              </tr>
+
+              <tr>
+                <td><div><input type="checkbox"></div></td>
+                <td>00043</td>
+                <td>Design works</td>
+                <td>
+                  <div class="flag_head">
+                    <span>
+                      <img src="images/wolf.jfif" alt="img">
+                    </span>
+                    <p>Blue Wolf</p>
+                  </div>
+                </td>
+                <td>4567892</td>
+                <td>15 Feb 2019</td>
+                <td><p class="paid_cont green-colo">paid</p></td>
+                <td>$568</td>
+                <td>actions</td>
+              </tr>
+              <tr>
+                <td><div><input type="checkbox"></div></td>
+                <td>00042</td>
+                <td>Ui wire frames</td>
+                <td>
+                  <div class="flag_head">
+                    <span>
+                      <img src="images/usa.webp" alt="img">
+                    </span>
+                    <p>USA</p>
+                  </div>
+                </td>
+                <td>4567890</td>
+                <td>15 Dec 2017</td>
+                <td><p class="paid_cont blue_colo">paid</p></td>
+                <td>$567</td>
+                <td>actions</td>
+              </tr>
+
+              <tr>
+                <td><div><input type="checkbox"></div></td>
+                <td>00043</td>
+                <td>Design works</td>
+                <td>
+                  <div class="flag_head">
+                    <span>
+                      <img src="images/wolf.jfif" alt="img">
+                    </span>
+                    <p>Blue Wolf</p>
+                  </div>
+                </td>
+                <td>4567892</td>
+                <td>15 Feb 2019</td>
+                <td><p class="paid_cont green-colo">paid</p></td>
+                <td>$568</td>
+                <td>actions</td>
+              </tr>
+              <tr>
+                <td><div><input type="checkbox"></div></td>
+                <td>00042</td>
+                <td>Ui wire frames</td>
+                <td>
+                  <div class="flag_head">
+                    <span>
+                      <img src="images/usa.webp" alt="img">
+                    </span>
+                    <p>USA</p>
+                  </div>
+                </td>
+                <td>4567890</td>
+                <td>15 Dec 2017</td>
+                <td><p class="paid_cont blue_colo">paid</p></td>
+                <td>$567</td>
+                <td>actions</td>
+              </tr>
+
+              <tr>
+                <td><div><input type="checkbox"></div></td>
+                <td>00043</td>
+                <td>Design works</td>
+                <td>
+                  <div class="flag_head">
+                    <span>
+                      <img src="images/wolf.jfif" alt="img">
+                    </span>
+                    <p>Blue Wolf</p>
+                  </div>
+                </td>
+                <td>4567892</td>
+                <td>15 Feb 2019</td>
+                <td><p class="paid_cont green-colo">paid</p></td>
+                <td>$568</td>
+                <td>actions</td>
+              </tr>
+              <tr>
+                <td><div><input type="checkbox"></div></td>
+                <td>00042</td>
+                <td>Ui wire frames</td>
+                <td>
+                  <div class="flag_head">
+                    <span>
+                      <img src="images/usa.webp" alt="img">
+                    </span>
+                    <p>USA</p>
+                  </div>
+                </td>
+                <td>4567890</td>
+                <td>15 Dec 2017</td>
+                <td><p class="paid_cont blue_colo">paid</p></td>
+                <td>$567</td>
+                <td>actions</td>
+              </tr>
+
+              <tr>
+                <td><div><input type="checkbox"></div></td>
+                <td>00043</td>
+                <td>Design works</td>
+                <td>
+                  <div class="flag_head">
+                    <span>
+                      <img src="images/wolf.jfif" alt="img">
+                    </span>
+                    <p>Blue Wolf</p>
+                  </div>
+                </td>
+                <td>4567892</td>
+                <td>15 Feb 2019</td>
+                <td><p class="paid_cont green-colo">paid</p></td>
+                <td>$568</td>
+                <td>actions</td>
+              </tr>
+            </tbody>
+            <tfoot>
+              <tr>
+                <th>No</th>
+                <th>No</th>
+                <th>Invoice Subject</th>
+                <th>client</th>
+                <th>vat No</th>
+                <th>crated</th>
+                <th>status</th>
+                <th>price</th>
+                <th>actions</th>
+              </tr>
+            </tfoot>
+          </table>
+        </div>
+        <!--footer-->
+        <div class="ft_head pb-4 pt-5">
+          <div class="row head_main">
+            <div class="col-sm-6">
+              <div class="ft_deatils">
+                <ul class="ft_list"> 
+                  <li>
+                    <a href="#"> Copyright © 2023 Tabler .All rights reserved.</a>
+                  </li>
+                  <li>
+                    <a href="#">. v1.0.0-beta17</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-sm-6 text-end">
+              <div class="ft_right">
+                <ul class="ft_right_list">
+                  <li>
+                    <a href="#">Documentation</a>
+                  </li>
+                  <li>
+                    <a href="#">. License</a>
+                  </li>
+                  <li>
+                    <a href="#">. Source code .</a>
+                  </li>
+                  <li>
+                    <a href="#"><i class="fa fa-heart" style="color: red;"></i> Sponsor </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+      </div>
+    </div>
+    <div class="overall"></div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/apexcharts"></script>
+    <script src="js/index.js"></script>
+    <script src="https://code.jquery.com/jquery-latest.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jqvmap/1.5.1/jquery.vmap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jqvmap/1.5.1/maps/jquery.vmap.world.js"></script>
+  <!-- data table link -->
+    <!-- <script src="https://code.jquery.com/jquery-3.5.1.js"></script> -->
+    <script src="https://cdn.datatables.net/1.13.1/js/jquery.dataTables.min.js"></script>
+</body>
+</html>
